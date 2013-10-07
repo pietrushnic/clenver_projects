@@ -1,0 +1,33 @@
+https://github.com/pietrushnic/dotfiles.git:
+  links:
+    gitconfig:
+      - $HOME/.gitconfig
+    pythonrc:
+      - $HOME/.pythonrc
+    tmux.conf:
+      - $HOME/.tmux.conf
+    urlview:
+      - $HOME/.urlview
+
+https://github.com/pietrushnic/spf13-vim.git:
+  links:
+    ../spf13-vim:
+      - $HOME/.spf13-vim-3
+  repos:
+    upstream:
+      - https://github.com/spf13/spf13-vim.git
+  run:
+    - $HOME/.spf13-vim-3/bootstrap.sh
+
+https://github.com/pietrushnic/oh-my-zsh.git:
+  links:
+    ../oh-my-zsh:
+      - $HOME/.oh-my-zsh
+    $HOME/.oh-my-zsh:
+      - $HOME/.zshrc
+  repos:
+    upstream:
+      - https://github.com/robbyrussell/oh-my-zsh.git
+
+
+
