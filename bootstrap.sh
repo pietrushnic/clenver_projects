@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get -y install git vim curl zsh tmux
 curl -L https://get.rvm.io | bash -s stable --ruby
 zsh -l -c 'rvm use ruby'
