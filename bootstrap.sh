@@ -4,5 +4,4 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 zsh -l -c 'source $HOME/.rvm/scripts/rvm;rvm use ruby'
 zsh -l -c 'source $HOME/.rvm/scripts/rvm;gem install clenver tmuxinator ghi'
 git clone https://github.com/pietrushnic/clenver_projects.git projects
-chsh -s /bin/zsh `whoami`
 zsh -l -c 'source $HOME/.rvm/scripts/rvm;clenver init projects/general.yml $HOME/src'
