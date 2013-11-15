@@ -1,8 +1,10 @@
 apt:
   - vim
   - tmux
+  - mutt
 gem:
   - tmuxinator
+  - earthquake
 https://github.com/pietrushnic/dotfiles.git:
   links:
     gitconfig:
