@@ -1,0 +1,11 @@
+apt:
+  - zsh
+https://github.com/pietrushnic/oh-my-zsh.git:
+  links:
+    ../oh-my-zsh:
+      - $HOME/.oh-my-zsh
+    $HOME/.oh-my-zsh/zshrc:
+      - $HOME/.zshrc
+  repos:
+    upstream:
+      - https://github.com/robbyrussell/oh-my-zsh.git

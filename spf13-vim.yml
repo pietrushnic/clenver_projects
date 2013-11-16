@@ -1,0 +1,11 @@
+apt:
+  - vim
+https://github.com/pietrushnic/spf13-vim.git:
+  links:
+    ../spf13-vim:
+      - $HOME/.spf13-vim-3
+  repos:
+    upstream:
+      - https://github.com/spf13/spf13-vim.git
+  run:
+    - $HOME/.spf13-vim-3/bootstrap.sh
