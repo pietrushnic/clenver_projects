@@ -2,6 +2,8 @@ apt:
   - vim
   - tmux
   - mutt
+  - zsh
+  - weechat-curses
 gem:
   - tmuxinator
   - earthquake
