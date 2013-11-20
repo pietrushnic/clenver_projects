@@ -4,7 +4,8 @@ gem:
   - tmuxinator
   - earthquake
 https://github.com/pietrushnic/dotfiles.git:
-  dst: $HOME/src/dotfiles
+  dst:
+    - $HOME/src/dotfiles
 links:
   $HOME/src/dotfiles/gitconfig:
     - $HOME/.gitconfig
