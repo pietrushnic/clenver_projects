@@ -1,11 +1,16 @@
 apt:
   - zsh
 https://github.com/pietrushnic/oh-my-zsh.git:
-  links:
-    ../oh-my-zsh:
-      - $HOME/.oh-my-zsh
-    $HOME/.oh-my-zsh/zshrc:
-      - $HOME/.zshrc
-  repos:
+  dst:
+    - $HOME/src/oh-my-zsh
+  remotes:
     upstream:
-      - https://github.com/robbyrussell/oh-my-zsh.git
+    - https://github.com/robbyrussell/oh-my-zsh.git
+links:
+  $HOME/src/oh-my-zsh:
+    - $HOME/.oh-my-zsh
+  $HOME/.oh-my-zsh/zshrc:
+    - $HOME/.zshrc
+run:
+  - echo "----===== oh-my-zsh installed successful =====----"
+  - echo "Please change your shell by 'chsh -s /bin/sh $USER'"
