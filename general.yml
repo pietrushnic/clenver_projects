@@ -4,13 +4,14 @@ gem:
   - tmuxinator
   - earthquake
 https://github.com/pietrushnic/dotfiles.git:
-  links:
-    gitconfig:
-      - $HOME/.gitconfig
-    pythonrc:
-      - $HOME/.pythonrc
-    tmux.conf:
-      - $HOME/.tmux.conf
-    urlview:
-      - $HOME/.urlview
+  dst: $HOME/src/dotfiles
+links:
+  $HOME/src/dotfiles/gitconfig:
+    - $HOME/.gitconfig
+  $HOME/src/dotfiles/pythonrc:
+    - $HOME/.pythonrc
+  $HOME/src/dotfiles/tmux.conf:
+    - $HOME/.tmux.conf
+  $HOME/src/dotfiles/urlview:
+    - $HOME/.urlview
 
